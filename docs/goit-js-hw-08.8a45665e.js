@@ -1,0 +1,2 @@
+let e,t,a=document.querySelector("#username"),r=document.querySelector("#password"),o=document.querySelector("#saveBtn");document.querySelector("#formApp"),e=localStorage.getItem("formData_username"),t=localStorage.getItem("formData_password"),e&&(a.value=e),t&&(r.value=t),o.addEventListener("click",()=>{let e=a.value.trim(),t=r.value.trim();localStorage.setItem("formData_username",e),localStorage.setItem("formData_password",t),alert("Дані успішно збережено!")});
+//# sourceMappingURL=goit-js-hw-08.8a45665e.js.map
