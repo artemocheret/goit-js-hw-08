@@ -1,7 +1,7 @@
 <ul id="bookmarkList">
   {{#each this}}
-    <li>
-      <a href="" class="bookmarkLink" data-id="{{data_id}}">{{url}}</a>
+    <li data-id="{{id}}">
+      <a href="{{link}}" class="bookmarkLink">{{link}}</a>
       <button class="delete-btn">x</button>
     </li>
   {{/each}}
