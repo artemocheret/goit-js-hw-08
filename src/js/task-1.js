@@ -37,7 +37,7 @@ const handleLinkRemove = (event) => {
     const indexToRemove = linkList.findIndex((link) => link.id === id);
     linkList.splice(indexToRemove, 1);
     renderBookMarks(bookMarksContainer, linkList);
-    storage.save(TASKS_STORAGE_KEY, linkList);
+    storage.save(STORAGE_BOOKMARK_KEY, linkList);
   }
 };
 
